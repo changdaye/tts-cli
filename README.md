@@ -1,10 +1,14 @@
 # TTS-CLI
 
+[![CI](https://github.com/changdaye/tts-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/changdaye/tts-cli/actions/workflows/ci.yml)
+
 中文优先的本地文本转语音命令行工具。它可以直接读取你电脑上的 `.txt`、`.md`、`.markdown` 等文本文件，并通过免费 TTS 后端将文本朗读出来，或导出为音频文件。
 
 This is a Chinese-first local text-to-speech CLI. It reads local text files such as `.txt` and `.md`, then speaks them aloud or exports them to audio using free TTS backends.
 
 로컬 텍스트 파일을 직접 읽어 음성으로 변환하는 중국어 우선 TTS CLI 도구입니다. `.txt`, `.md`, `.markdown` 파일을 읽고 재생하거나 오디오 파일로 저장할 수 있습니다.
+
+![TTS-CLI terminal demo](./assets/terminal-demo.svg)
 
 ## 中文说明
 
@@ -32,6 +36,10 @@ This is a Chinese-first local text-to-speech CLI. It reads local text files such
 - 支持 `--play` 生成后直接播放
 - 支持 `--list-voices` 查看可用语音
 - 命令输出和错误提示尽量使用中文
+
+### 演示
+
+README 首页附带了一张终端风格演示图，用于快速展示典型调用方式。如果后续你需要更真实的动画演示，可以再补录 GIF 或 asciinema。
 
 ### 项目结构
 

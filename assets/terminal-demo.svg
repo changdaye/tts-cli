@@ -1,0 +1,19 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="28" fill="#0F172A"/>
+  <rect x="28" y="28" width="1144" height="664" rx="22" fill="#111827"/>
+  <rect x="28" y="28" width="1144" height="56" rx="22" fill="#1F2937"/>
+  <circle cx="68" cy="56" r="10" fill="#F87171"/>
+  <circle cx="100" cy="56" r="10" fill="#FBBF24"/>
+  <circle cx="132" cy="56" r="10" fill="#34D399"/>
+  <text x="600" y="62" fill="#E5E7EB" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="24" text-anchor="middle">TTS-CLI Demo</text>
+  <text x="72" y="136" fill="#93C5FD" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="26">$ source .venv/bin/activate</text>
+  <text x="72" y="186" fill="#93C5FD" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="26">$ python -m tts_cli ./report.md --backend edge \</text>
+  <text x="112" y="224" fill="#93C5FD" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="26">--voice zh-CN-XiaoxiaoNeural --play</text>
+  <text x="72" y="292" fill="#A7F3D0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="26">正在播放：/var/folders/.../tts-cli-demo.mp3</text>
+  <text x="72" y="360" fill="#E5E7EB" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="24">读取本地 Markdown 文件</text>
+  <text x="72" y="402" fill="#E5E7EB" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="24">免费 edge-tts 中文语音</text>
+  <text x="72" y="444" fill="#E5E7EB" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="24">支持 --play / --output / --speed / --voice</text>
+  <rect x="70" y="500" width="1060" height="120" rx="18" fill="#0B1220" stroke="#23304A"/>
+  <text x="96" y="550" fill="#F9FAFB" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="22">TTS-CLI '/Users/you/Documents/book.md' --backend edge --play</text>
+  <text x="96" y="590" fill="#60A5FA" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="20">Chinese-first local text-to-speech CLI for Markdown and text files</text>
+</svg>
