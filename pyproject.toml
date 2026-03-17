@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tts-cli"
+version = "0.1.0"
+description = "一个可读取本地文本文件的中文 TTS CLI 工具"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+offline = [
+  "pyttsx3>=2.90",
+]
+edge = [
+  "edge-tts>=6.1.0",
+]
+dev = [
+  "pytest>=8.0",
+]
+
+[project.scripts]
+TTS-CLI = "tts_cli.cli:main"
+
+[tool.setuptools]
+packages = ["tts_cli"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
